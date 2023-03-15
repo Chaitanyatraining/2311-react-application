@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Stylings from "./components/Stylings"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import ListsandKeys from './components/ListsandKeys'
+import ClassComp from './components/ClassComp'
+import ConditionalRender from './components/ConditionalRender'
+import ContactUs from './components/ContactUs'
+import LifeCycleMethods from './components/LifeCycleMethods'
 
-function App() {
-  return (
+const App=()=>{
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Welcome to React</h2>
+      {/* <Stylings /> */}
+      {/* <ListsandKeys title="ListsandKeys" items="10" /> */}
+      {/* <ClassComp title="classComponent" /> */}
+      {/* <ConditionalRender /> */}
+      {/* <ContactUs /> */}
+      <LifeCycleMethods />
     </div>
-  );
+  )
 }
 
 export default App;
