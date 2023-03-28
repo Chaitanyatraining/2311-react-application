@@ -1,0 +1,12 @@
+what are react Hooks?
+    - Hooks in react are built-in-functions that allows developers to use lifecycle methods and state functions
+    inside functional components
+    - they are backward compatible an can work with existing code thus can be adopteed easily into projects.
+
+the Don'ts of Hooks 
+    - Don't call hooks inside loops, nested functions, or conditions
+    - use hooks at the top level of your functions
+    - make sure that hooks are called in the same order each time a component renders, allowing react to preseve 
+    the state of hooks
+    - Dont call hooks from regular javascript functions, instead call inside react functions or custom hooks
+    
