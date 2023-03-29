@@ -8,12 +8,16 @@ import ContactUs from './components/ContactUs'
 import LifeCycleMethods from './components/LifeCycleMethods'
 import Pagination from './components/Pagination'
 import Counterinfunc from './Hooks/Counterinfunc'
+import UseEffectHook from './Hooks/UseEffectHook'
+import Header from './components/Header'
+import Routing from './components/Routing/Routing'
 
 const App=()=>{
   return(
     <div className="App">
-      <h2>Welcome to React</h2>
-      <Counterinfunc />
+      <Header />
+      <Routing />
+      {/* <Counterinfunc /> */}
       {/* <Pagination /> */}
       {/* <Stylings /> */}
       {/* <ListsandKeys title="ListsandKeys" items="10" /> */}

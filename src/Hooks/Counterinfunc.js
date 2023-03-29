@@ -3,6 +3,16 @@ import React, { useState } from 'react'
 function Counterinfunc() {
        const [count,setCount] = useState(0);
 
+      // const getUserData = ()=>{
+      //   const [userData,setUserData] = useState()
+      // }
+
+      // if(true){
+      //     const [userData,setUserData] = useState()
+      // }
+
+      
+
        const incrementFunc = () =>{
         setCount(count+1);
        }
