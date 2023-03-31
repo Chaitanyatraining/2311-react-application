@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import { CompA } from '../../Hooks/CompA'
 import PaginationUseEffect from '../../Hooks/PaginationUseEffect'
 import UseEffectHook from '../../Hooks/UseEffectHook'
 import UseRefHook from '../../Hooks/UseRefHook'
@@ -16,6 +17,7 @@ function Routing() {
         <Route path="/paginationuseeffect" element={<PaginationUseEffect />} />
         <Route path="/userefHook" element={<UseRefHook />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/useContextHook" element={<CompA />} />
    </Routes>
   )
 }

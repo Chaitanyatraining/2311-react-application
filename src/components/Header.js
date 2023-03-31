@@ -28,6 +28,9 @@ function Header() {
           <Link to="userefHook" class="nav-link">useRef Hook</Link>
         </li>
         <li class="nav-item">
+          <Link to="useContextHook" class="nav-link">useContext Hook</Link>
+        </li>
+        <li class="nav-item">
           <Link to="contactus" class="nav-link" >ContactUs</Link>
         </li>
         <li class="nav-item">
